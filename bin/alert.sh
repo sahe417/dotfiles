@@ -1,7 +1,6 @@
 #!/bin/sh
 
-LANG=C
-export LANG
+LANG=C;export LANG
 
 usage()
 {
