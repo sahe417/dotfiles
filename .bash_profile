@@ -29,7 +29,7 @@ export ORACLE_BASE=/opt/app/oracle
 export ORACLE_HOME=$ORACLE_BASE/product/12.2.0/dbhome
 export NLS_LANG=American_America.AL32UTF8
 export NLS_DATE_FORMAT='YYYY-MM-DD HH24:MI:SS'
-export PATH=$ORACLE_HOME/bin:$ORACLE_HOME/OPatch$PATH
+export PATH=$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:$PATH
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 export CLASSPATH=`ls -r $ORACLE_HOME/jdbc/lib/ojdbc[0-9].jar 2>/dev/null | \\
        perl -pe 's/\\n/:/g'`${CLASSPATH:+:$CLASSPATH}
