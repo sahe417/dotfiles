@@ -38,7 +38,7 @@ export SQLPATH=$HOME
 ulimit -u 16384 -n 65536
 
 # Home
-#export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$PATH
 #export MANPATH=$HOME/man:$MANPATH
 
 # Get the aliases and functions
