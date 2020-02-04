@@ -24,11 +24,10 @@ alias 'vi=vim -X'
 alias 'view=vim -RX'
 
 # Oracle Database 12.2.0
-alias 'cdb=cd "$ORACLE_BASE"'
-alias 'cdo=cd "$ORACLE_HOME"'
-alias 'cda=cd "｀alert.sh -p｀"'
-alias 'cdu=cd "｀alert.sh -u｀"'
-
-alias 'sp=sqlplus'
-alias 'spn=sqlplus /nolog'
-alias 'sps=sqlplus '\''/ as sysdba'\'''
+alias cdb='cd $ORACLE_BASE'
+alias cdh='cd $ORACLE_HOME'
+alias cdn='cd $ORACLE_HOME/network/admin'
+alias sqs='sqlplus / as sysdba'
+alias sqp='sqlplus system/oracle@PDB01'
+alias sqls='sql / as sysdba'
+alias sqlp='sql system/oracle@PDB01'
