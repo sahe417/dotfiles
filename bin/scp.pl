@@ -54,6 +54,6 @@ foreach my $host (@hosts) {
         }
         $rc = system("$cmd");
         if ($rc ne '0') {
-                print STDERR "ERROR: scp $file $user\@$host failed...\n";
+                print STDERR "ERROR: scp $file $user\@$host failed....\n";
         }
 }
