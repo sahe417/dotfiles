@@ -33,7 +33,8 @@ export PATH=$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:$PATH
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 export CLASSPATH=`ls -r $ORACLE_HOME/jdbc/lib/ojdbc[0-9].jar 2>/dev/null | \\
        perl -pe 's/\\n/:/g'`${CLASSPATH:+:$CLASSPATH}
-export SQLPATH=$HOME
+export ORACLE_HOME=$HOME/sql
+export SQLPATH=$HOME/sqlcl
 
 ulimit -u 16384 -n 65536
 
