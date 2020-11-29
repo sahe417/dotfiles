@@ -16,32 +16,29 @@
   },
   "editor.letterSpacing": 1,
   "editor.tabSize": 2,
-  "editor.roundedSelection": true, // 選択範囲の角を丸める
+  "editor.roundedSelection": true, 
   "editor.quickSuggestions": {
-    "comments": false, // コメント内では無効
-    "strings": true, // 文字列内では有効
-    "other": true //  その他の場所で有効
-  }, // 補完候補の自動表示
-  "editor.formatOnType": true, // コード整形
-  "editor.formatOnPaste": true, // コード整形
-  "editor.lineNumbers": "on", // 行番号の表示
-  "editor.suggestFontSize": 10, // サジェストの文字サイズ
-  "editor.suggestLineHeight": 15, // サジェスト欄の行の高さ
-  "editor.insertSpaces": true, // Tabキーで半角スペースを入力
-  "editor.fontSize": 11, //  文字サイズ
-  "editor.renderIndentGuides": true, // インデントのガイドラインを表示
-  "editor.minimap.renderCharacters": false, // ミニマップを簡略化
-  "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
-  "editor.minimap.side": "right", // ミニマップを右に表示
-  "editor.cursorStyle": "line", // カーソルの形状
-  "editor.cursorBlinking": "smooth", // カーソルの表示形式
-  "editor.cursorWidth": 5, // カーソル幅
-  "editor.links": false, // リンクをクリック可能に
-  "editor.matchBrackets": true, // 対応する括弧の強調表示をオンに
-  // Terminal
-  "terminal.integrated.fontFamily": "monospace", // フォント
-  "terminal.integrated.fontSize": 12, // フォントサイズ
-  "terminal.integrated.letterSpacing": 1.5,
-  //"glassit.alpha": 255,
-  //"glassit.step": 1,
+    "comments": false, 
+    "strings": true, 
+    "other": true 
+  }, 
+  "editor.formatOnType": true, 
+  "editor.formatOnPaste": true, 
+  "editor.lineNumbers": "on", 
+  "editor.suggestFontSize": 10, 
+  "editor.suggestLineHeight": 15, 
+  "editor.insertSpaces": true, 
+  "editor.fontSize": 11, 
+  "editor.renderIndentGuides": true, 
+  "editor.minimap.renderCharacters": false, 
+  "editor.minimap.showSlider": "always", 
+  "editor.minimap.side": "right", 
+  "editor.cursorStyle": "line", 
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 5, 
+  "editor.links": false, 
+  "editor.matchBrackets": true, 
+  "terminal.integrated.fontFamily": "monospace", 
+  "terminal.integrated.fontSize": 12, 
+  "terminal.integrated.letterSpacing": 1.5
 }
